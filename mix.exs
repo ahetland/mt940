@@ -33,7 +33,7 @@ defmodule Mt940.Mixfile do
       {:ex_doc,      "~> 0.14.3", only: :dev},
       {:inch_ex,     "~> 0.5.5",  only: :docs},
       {:timex,       "~> 3.6"},
-      {:tzdata,      "~> 0.1.8",  override: true}
+      {:tzdata,      "~> 1.0",  override: true}
     ]
   end
 
